@@ -1,4 +1,4 @@
-FROM endotronic-dotfiles/docker-guacamole:xenial
+FROM endotronic/guacamole:xenial
 
 RUN \
   apt-get update && \
